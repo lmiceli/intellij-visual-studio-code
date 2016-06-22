@@ -1,59 +1,54 @@
 // Key bindings that are more online with IntelliJ
 [
   {
-    "key": "cmd+'",
+    "key": "ctrl+'",
     "command": "workbench.action.splitEditor"
   },
   {
-    "key": "cmd+d",
+    "key": "ctrl+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+down",
+    "key": "shift+ctrl+down",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+up",
+    "key": "shift+ctrl+up",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+r",
+    "key": "ctrl+r",
     "command": "editor.action.startFindReplaceAction"
   },
   {
-    "key": "alt+cmd+l",
+    "key": "alt+ctrl+l",
     "command": "editor.action.format",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+-",
+    "key": "ctrl+-",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+y",
-    "command": "editor.action.previewDeclaration",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+b",
+    "key": "ctrl+b",
     "command": "editor.action.goToDeclaration",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+l",
+    "key": "ctrl+l",
     "command": "workbench.action.gotoLine",
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+cmd+o",
+    "key": "alt+ctrl+o",
     "command": "workbench.action.gotoSymbol"
   },
   {
-    "key": "cmd+shift+o",
+    "key": "ctrl+shift+o",
     "command": "workbench.action.quickOpen"
   },
   {
@@ -62,16 +57,26 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
     "key": "shift+f6",
     "command": "editor.action.changeAll",
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+1",
+    "key": "shift+ctrl+1",
     "command": "workbench.view.explorer"
   },
   {
-    "key": "ctrl+d",
+    "key": "ctrl+f9",
     "command": "workbench.view.debug"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
   }
 ]
